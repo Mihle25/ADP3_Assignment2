@@ -18,7 +18,7 @@ public class ListClass {
 
 
     public void add(String object){
-        System.out.println("Add student name");
+        System.out.println("===Add student name: ====");
         StudentNames.add(object);
         System.out.println(StudentNames);
 
@@ -26,16 +26,16 @@ public class ListClass {
 
 
     public void remove(String object){
-        System.out.println(" Removes student name  ");
+        System.out.println(" ===Remove student name: ===  ");
         StudentNames.remove(object);
-        System.out.println("Removing object");
+        System.out.println("===Removing object: ===");
         System.out.println(StudentNames);
     }
 
     public String find(String object){
-        System.out.println(" Search student name ");
+        System.out.println(" ===Search student name:=== ");
         if(StudentNames.contains(object)){
-            System.out.println("Searching");
+            System.out.println("===Searching===");
             System.out.println(object);
         }else{
             System.out.println("Can't find object");
