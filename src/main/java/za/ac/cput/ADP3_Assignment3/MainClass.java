@@ -4,7 +4,7 @@ package za.ac.cput.ADP3_Assignment3;
 Emihle Menzo 218337035
 Assignment2
 ADP3:
-
+uncomment the section you want to test
  */
 
 public class MainClass {
@@ -15,10 +15,10 @@ public class MainClass {
 
         ListClass ListC = new ListClass();
         //list class
-        // ListC.add("Emihle");
+//         ListC.add("Emihle");
 //        ListC.add("Mihle");
 //        ListC.add("Likhanye");
-//        ListC.remove("Phila");
+//        ListC.remove("Mihle");
 //        ListC.find("Emihle");
 
 
@@ -27,7 +27,7 @@ public class MainClass {
         // SetC.add("Mihle");
 //        SetC.add("Emihle");
 //        SetC.add("Likhanye");
-//        SetC.remove("Phila");
+//        SetC.remove("Emihle");
 //        SetC.find("Mihle");
 
 
@@ -38,7 +38,7 @@ public class MainClass {
 //        MapC.add(11,"Mihle");
 //        MapC.add(5,"Amahle");
 //        MapC.remove(5);
-//        MapC.find("Likhanye");
+//        MapC.find("Mihle");
 
 
 
@@ -48,7 +48,7 @@ public class MainClass {
         //CollectionC.add("Emihle");
 //        CollectionC.add("Mihle");
 //        CollectionC.add("Phila");
-//        CollectionC.remove("Likhanye");
+//        CollectionC.remove("Emihle");
 //        CollectionC.find("test");
 
 
