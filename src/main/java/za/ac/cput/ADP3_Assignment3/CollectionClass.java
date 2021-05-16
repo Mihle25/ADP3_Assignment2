@@ -1,35 +1,41 @@
 package za.ac.cput.ADP3_Assignment3;
 
+/*
+Emihle Menzo 218337035
+Assignment2
+ADP3
+
+ */
+
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 
 public class CollectionClass {
 
-    Collection <String> snames = new ArrayList<>();
+    Collection <String> StudentNames = new ArrayList<>();
 
     public void add(String object){
-        System.out.println("============= Add Here -> ==============");
-        snames.add(object);
-        System.out.println(snames);
+        System.out.println("Add student name here ");
+        StudentNames.add(object);
+        System.out.println(StudentNames);
 
     }
 
     public void remove(String object){
-        System.out.println("============= Remove Here -> ==============");
-        snames.remove(object);
-        System.out.println("Removing object.....");
-        System.out.println(snames);
+        System.out.println(" Remove student name here");
+        StudentNames.remove(object);
+        System.out.println("Remove object");
+        System.out.println(StudentNames);
     }
 
     public String find(String object){
-        System.out.println("============= Search Here -> ==============");
-        if(snames.contains(object)){
-            System.out.println("Searching.....");
+        System.out.println("Search student name here");
+        if(StudentNames.contains(object)){
+            System.out.println("Searching");
             System.out.println(object);
         }else{
-            System.out.println("Cant find");
+            System.out.println("Can't find object");
         }
         return object;
     }
