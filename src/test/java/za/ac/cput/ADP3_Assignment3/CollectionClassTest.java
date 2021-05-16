@@ -37,6 +37,8 @@ class CollectionClassTest {
         CollectionC.add("Mihle");
         CollectionC.add("Emihle");
         CollectionC.remove("Emihle");
+
+
         if(CollectionC == null){
             System.out.println("The list is empty");
             assertNull(CollectionC);
@@ -49,6 +51,8 @@ class CollectionClassTest {
         CollectionC.add("Mihle");
         CollectionC.add("Emihle");
         CollectionC.find("Emihle");
+
+
         System.out.println(CollectionC);
         assertNotNull(CollectionC);
     }

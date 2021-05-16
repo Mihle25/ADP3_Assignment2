@@ -34,7 +34,7 @@ class ListClassTest {
         ListC.add("Likhanye");
         ListC.remove("Likhanye");
         if(ListC == null){
-            System.out.println("List is empty");
+            System.out.println("The list is empty");
             assertNull(ListC);
         }else
             assertNotNull(ListC);

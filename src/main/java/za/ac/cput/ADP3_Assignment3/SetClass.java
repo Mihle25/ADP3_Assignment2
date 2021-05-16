@@ -29,7 +29,7 @@ public class SetClass {
     public String find(String object){
         System.out.println("Search names");
         if(Names.contains(object)){
-            System.out.println("Searching");
+            System.out.println("Searching object");
             System.out.println(object);
         }else{
             System.out.println("Can't find object");

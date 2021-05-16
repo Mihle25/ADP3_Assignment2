@@ -15,21 +15,21 @@ public class MapClass {
     HashMap <Integer, String> studentNames = new HashMap <Integer, String>();
 
     public void add(int index,String value){
-        System.out.println(" Add student name here ");
+        System.out.println(" Add student name  ");
         studentNames.put(index,value);
         System.out.println(studentNames);
 
     }
 
     public void remove(int key){
-        System.out.println("Remove student name here ");
+        System.out.println("Remove student name");
         String returned_value = (String)studentNames.remove(key);
-        System.out.println("Removing object.....");
+        System.out.println("Removing object");
         System.out.println(studentNames);
 
     }
     public String find(String value){
-        System.out.println("Search student name here ");
+        System.out.println("Search student name ");
 
         System.out.println("Searching");
         if(studentNames.containsValue(value)){
